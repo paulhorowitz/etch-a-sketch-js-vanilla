@@ -1,3 +1,10 @@
 #container {
     display: grid;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+}
+
+.div {
+    border: 1px solid black;
 }
