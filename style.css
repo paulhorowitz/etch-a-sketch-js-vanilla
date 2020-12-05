@@ -1,18 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: radial-gradient(#3EC9F8,#5E6A91);
+}
 #container {
     display: grid;
+    justify-content: center;
 }
 
 .div {
+    justify-content: center;
     border: 1px solid black;
 }
 
 h1 {
     display: flex;
-    font-family: 'Roboto', sans-serif;
     justify-content: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 60px;
+    color: rgb(48, 47, 47);
 }
 
 h2 {
     display: flex;
-    
+    font-family: 'Kalam', cursive;
+    justify-content: center;
+    color: rgb(48, 47, 47)
+}
+
+#rainbow-button {
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
 }
