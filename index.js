@@ -8,6 +8,7 @@ container.style.gridTemplateColumns = `repeat(${gridSquares}, ${(containerGridSi
 container.style.gridTemplateRows = `repeat(${gridSquares}, ${(containerGridSize/gridSquares)}px)`;
 const rainbowButton = document.getElementById('rainbow-button');
 const blackButton = document.getElementById('black-button');
+const resetButton = document.getElementById('reset-button')
 
 function createGrid() {
     for (i = 0; i < gridSquares * gridSquares; i++) {
@@ -45,10 +46,20 @@ function createHoverEffect() {
     })
 }
 
+function resetGrid() {
+    document.querySelectorAll('div.grid').forEach(element => {
+        element.style.backgroundColor = '#ffffff'
+    })
+}
+
 createGrid(gridSquares)
 rainbowButton.addEventListener('click', function (e) {
     rainbowColors();
 })
 blackButton.addEventListener('click', function (e) {
     createHoverEffect();
+})
+
+resetButton.addEventListener('click', function (e) {
+    resetGrid();
 })
