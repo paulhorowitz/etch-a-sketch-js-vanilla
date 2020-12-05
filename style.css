@@ -33,10 +33,22 @@ h2 {
     color: rgb(48, 47, 47)
 }
 
+#black-button {
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
 #rainbow-button {
     padding: 15px 32px;
     text-decoration: none;
     display: inline-block;
     text-align: center;
     margin: 10px;
+    border-radius: 10px;
+    font-size: 16px;
 }
