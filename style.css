@@ -61,3 +61,10 @@ input {
     border-radius: 8px;
     padding-top: 8px;
 }
+
+.pics {
+    margin: 20px;
+    height: 300px;
+    border: 10px solid whitesmoke;
+    border-radius: 20px;
+}
