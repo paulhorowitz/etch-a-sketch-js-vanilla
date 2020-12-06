@@ -43,3 +43,21 @@ h2 {
     border-radius: 10px;
     font-size: 16px;
 }
+
+p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+    color: rgb(48, 47, 47);
+    height: 30px;
+}
+
+#grid-input {
+    margin-bottom: 20px;
+}
+
+input {
+    border-radius: 8px;
+    padding-top: 8px;
+}
